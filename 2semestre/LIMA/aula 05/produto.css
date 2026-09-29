@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 90px;
+    background-color: white;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+.logo {
+    width: 38px;
+    height: 38px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+.imagem {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.produto h2 {
+    margin-bottom: 10px;
+}
+
+.produto p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.produto span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkblue;
+}

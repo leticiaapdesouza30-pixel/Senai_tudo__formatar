@@ -1,0 +1,3 @@
+id_venda | id_cliente | data_venda | forma_pagamento | valor_total
+1 | 1 | 15/06/2025 | Cartão de Crédito | 99,8
+2 | 2 | 16/06/2025 | Pix | 59,9

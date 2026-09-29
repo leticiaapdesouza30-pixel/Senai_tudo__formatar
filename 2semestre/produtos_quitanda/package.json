@@ -1,0 +1,19 @@
+{
+  "name": "produtos_quitanda",
+  "version": "1.0.0",
+  "description": "Exemplo de cliente x servidor full-stack",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "keywords": [
+    "quitanda",
+    "produtos"
+  ],
+  "author": "leticiaapdesouza30-pix",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

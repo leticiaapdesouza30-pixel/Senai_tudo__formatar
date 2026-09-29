@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vibresa Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>  
+        <h1>Vibresa Store</h1>
+        <p>Seu próximo jogo favorito está aqui!</p>
+    </header>
+
+    <main> 
+
+        <h2>Jogo em destaque</h2>
+
+        <div class="jogo">
+
+            <div class="imagem">
+                <img src="image.png" alt="Imagem do jogo">
+    
+            </div>
+
+            <div class="informacoes">
+
+                <h2>Cyber World</h2>
+
+                <p>
+                    Explore uma cidade futurista,
+                    enfrente inimigos e descubra novos mundos.
+                </p>
+
+                <div class="detalhes">
+                    <p>Nota: 4.8/5</p>
+                    <p>Gênero: Ação e aventura</p>
+                    <p>Jogadores: 1-4</p>
+                </div>
+
+                <h3>R$ 49,90</h3>
+
+                <button id="botao" onclick="jogar()">
+                    Jogar agora
+                </button>
+
+                <p id="mensagem"></p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Game Zone - 2026</p>
+    </footer>
+    <script>
+
+        function jogar() {
+
+            document.getElementById("mensagem").innerText =
+                "Jogo iniciado! Boa sorte!";
+            document.getElementById("botao").innerText =
+                "Jogo iniciado";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
